@@ -60,10 +60,10 @@ print('The probability of the test events being non-SEUs is',[ '%.1f' % elem for
 
 
 # Results
-# KDE
+# KDE method
 # The probability of the test events being SEUs is ['0.0', '95.2', '0.0', '37.8', '15.7', '0.0', '2.9', '0.0'] %
 # The probability of the test events being non-SEUs is ['100.0', '4.8', '100.0', '62.2', '84.3', '100.0', '97.1', '100.0'] %
 #
-# Hist
+# Histogram
 # The probability of the test events being SEUs is ['5.6', '13.5', '1.2', '4.5', '5.1', '7.8', '0.0', '0.0'] %
 # The probability of the test events being non-SEUs is ['94.4', '86.5', '98.8', '95.5', '94.9', '92.2', '100.0', '100.0'] %

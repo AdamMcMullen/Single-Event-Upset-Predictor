@@ -44,18 +44,18 @@ ax = fig.add_subplot(111, projection="mollweide")
 ax.plot(dataset[dataset['class']=='Non'][' Longitude (deg)']*np.pi/180,dataset[dataset['class']=='Non'][' Latitude (deg)']*np.pi/180,'k.')
 ax.plot(dataset[dataset['class']=='SEU'][' Longitude (deg)']*np.pi/180,dataset[dataset['class']=='SEU'][' Latitude (deg)']*np.pi/180,'r.',markersize=5)
 ax.plot(test[' Longitude (deg)']*np.pi/180,test[' Latitude (deg)']*np.pi/180,'*',markersize=10)
+ax.legend(['Non-SEU', 'SEU','Test set'])
 ax.grid()
 plt.show()
 
 summary(dataset)
 summary(SEU)
 summary(non)
-summary(test)
 
 plotter(dataset)
 plotter(SEU)
 plotter(non)
-plotter(test)
+
 
 weights=np.append(np.ones(len(SEU))/len(SEU),np.ones(len(non))/len(non))
 dataset['weights']=weights
