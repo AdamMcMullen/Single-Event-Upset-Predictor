@@ -1,0 +1,49 @@
+URANJ 22501 11002 02800 19200 08720 99999
+PLAIN
+-------------------------------------------------------------- 
+Flux Density Values in sfu for 20:00 on 2021:10:02 
+
+Julian Day Number                            : 2459490.322 
+
+Carrington Rotation Number                   : 2249.29 
+
+Observed Flux Density                        : 0087.0 
+
+Flux Density Adjusted for 1 A.U.             : 0087.1 
+
+URSI Series D Flux, Adj. x 0.9               : 0078.4 
+
+
+This measurement has been derived, processed and transmitted 
+automatically. In case of questions, please contact us as below:
+
+	Phone   : +1 250-497-2300	
+	Fax     : +1 250-497-2355       
+	Internet: nrc.drao-ofr.cnrc@nrc-cnrc.gc.ca
+	
+	
+Observatory hours are 0800-1600 Pacific Time, Monday to Friday
+except Canadian Statutory Holidays and Dec 24 - Jan 1.
+
+
+	 ---------------------------------------------------
+		The Solar Radio Monitoring Programme        
+		     is operated jointly by the             
+		     National Research Council               
+		              and the                       
+		       Canadian Space Agency                
+	 ---------------------------------------------------
+	 
+For more information about the National Research Council and  the ,Herzberg
+Institute of Astrophysics, (Dominion Radio Astrophysical Observatory)  please
+see us at www.nrc-cnrc.gc.ca. For information about the Canadian Space Agency
+please visit www.space.gc.ca.
+
+
+data headers:
+fluxdate    fluxtime    fluxjulian    fluxcarrington  fluxobsflux  fluxadjflux  fluxursi  
+----------  ----------  ------------  --------------  -----------  -----------  ----------
+
+
+
+ server : dd1.drao.nrc.ca  - FM 2 
